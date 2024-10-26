@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="box">
+            <div class="title">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="name">
+                <label for="Full name">Full Name</label><br>
+                <input class="input100" type="text" placeholder="Enter full name" required maxlength="20">
+            </div>
+            <div class="mail">
+                <label for="Email Address">Email Address</label><br>
+                <input class="input100" type="email" placeholder="Enter email address"required maxlength="50">
+            </div>
+            <div class="mobile_dob">
+                <div class="mobile">
+                    <label for="Mobile Number">Mobile Number</label><br>
+                    <input class="input48" type="tel" placeholder="Enter mobile number"required>
+                </div>
+                <div class="dob">
+                    <label for="Birth Date">Birth Date</label><br>
+                    <input class="input48" type="date"required min="2000-01-01" max="2005-12-01">
+                </div>
+            </div>
+            <div class="gender">
+                <label for="Gender">Gender</label>
+                <div class="check">
+                    <div>
+                        <input type="checkbox" name="Gender">
+                        <label for="Male">Male</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Gender">
+                        <label for="Female">Female</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"name="Gender">
+                        <label for="Prefer not to say">Prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+            <div class="address">
+                <label for="Address">Address</label><br>
+                <input class="input100" type="text" placeholder="Enter Address"required>
+            </div>
+            <div class="country_post">
+                <div class="country">
+                    <label for="Country">Country</label>
+                    <select class="input48" name="Country" id="country" required>
+                        <option value="Country">Country</option>
+                        <option value="India">India</option>
+                        <option value="Srilanka">Srilanka</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Afganistan">Afganistan</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Postal code">Postal code</label>
+                    <input class="input48" type="text" placeholder="Enter Postal Code"required> <br>
+                </div>
+            </div>
+            <button class="input100 button" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(./full_stack_banner.avif);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.nav{
+    display: flex;
+    gap: 100px;
+    flex-wrap:wrap;
+    justify-content:space-around ;
+    align-items:stretch;
+    font-size: x-large;
+    background-color:black;
+    color: azure;
+    position: sticky;
+    top:0%;
+    padding: 10px 0px 10px 30px;
+    /* flex-direction: column;*/
+}
+.bar:hover{
+    background-color: azure;
+    a{
+        color: black;
+    }
+}
+a{
+        color: azure;
+        text-decoration: none;
+}
+.image{
+    background-image: url(./full_stack_banner.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.searchbar{
+    height: 50px;
+    width: 500px;
+    margin: 10px 0px 0px 500px;
+    border-radius: 50px;
+    background-color:rgb(192, 192, 192);
+    padding: 0px 0px 0px 10px;
+}
+.searchbar::placeholder{
+    color:black;
+    font-weight:bolder;
+}
+h1{
+    text-align: center;
+    padding: 0px 45px 10px 20px;
+    margin: 20px 450px 5px 475px;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    border-right: 2px solid azure;
+    box-shadow: 0 0 10px 5px black;
+}
+.nav1{
+      display: flex;
+      align-items: center;
+      color: azure;
+      padding: 12px;
+      font-weight: bolder;
+      font-size: medium;
+      border-bottom: 1px solid azure;
+}
+.menu .nav1{
+    margin-right: 12px;
+}
+.nav1:active{
+    background-color: azure;
+    color: black;
+}
+/* 
+.nav{
+    position: sticky;
+    display: flex;
+    font-size: large;
+    background-color:  cornsilk;
+}
+.home{
+    padding: 10px;
+    margin: 10px 100px 0px 150px;
+    background-color:  cornsilk;
+}
+.home:hover{
+    background-color:mintcream;
+}
+.MERN{
+    padding: 10px;
+    margin: 10px 100px 0px 50px;
+    background-color:  cornsilk;
+}
+.MERN:hover{
+    background-color:mintcream;
+}
+.MEAN{
+    padding: 10px;
+    margin: 10px 100px 0px 50px;
+    background-color:  cornsilk;
+}
+.MEAN:hover{
+    background-color:mintcream;
+}
+.Java{
+    padding: 10px;
+    margin: 10px 100px 0px 50px;
+    background-color:  cornsilk;
+}
+.Java:hover{
+    background-color:mintcream;
+}
+.Python{
+    padding: 10px;
+    margin: 10px 100px 0px 50px;
+    background-color:  cornsilk;
+}
+.Python:hover{
+    background-color:mintcream;
+}
+.Net{
+    padding: 10px;
+    margin: 10px 30px 0px 50px;
+    background-color:  cornsilk;
+}
+.Net:hover{
+    background-color:mintcream;
+}
+.searchbar{
+    height: 25px;
+    width: 500px;
+    margin: 0px 0px 0px 500px;
+}
+*/

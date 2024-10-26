@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(185, 227, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 25vw;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(189, 201, 203);
+    border-radius: 15px;
+}
+.title{
+    text-align: center;
+}
+.check,.mobile_dob,.country_post{
+    display: flex;
+    justify-content: space-between;
+}
+.input100{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+    border-bottom: 3px solid ;
+}
+.input48{
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+}
+.button{
+    background-color:rgb(94, 201, 228);
+    height: 35px;
+    font-size:medium;
+    font-weight: bold;
+
+}
+.button:hover{
+    background-color: azure;
+    color: rgb(94, 201, 228);;
+}
